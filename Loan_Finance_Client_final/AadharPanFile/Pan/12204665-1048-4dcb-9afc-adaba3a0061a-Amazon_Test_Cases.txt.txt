@@ -1,0 +1,55 @@
+          Test Case in Amazon E- commerce 
+
+
+Login page :
+
+Test Case 1: Check results on entering valid User Id & Password
+Test Case 2: Check results on entering Invalid User ID & Password
+Test Case 3: Check response when a User ID is Empty & Login Button is pressed.
+Test Case 4 : Delay while geting OTP. 
+
+Sign-up Page:
+
+- Enter Name Required
+- Phone Number Required 
+-Mobile Number Country Code 
+-Valid Email Id optional
+- password with Strong ( 6 character required )
+-OTP for Sign up 
+
+Home page:
+- Discount products 
+- Deal of the Day 
+- Previous Product Review & Rating 
+
+Search :
+
+Does the searc box show the search page without any search query
+* What does the search box do if the search query is not entered
+* Check if the search box is present or not
+* Check the characters allowed to be entered
+* Does the Search box do auto-suggestions when the query is being typed
+* Does the search bx do auto-corrections in typo
+* Check if the Amazon page offers focus on search
+
+Buying Page:
+
+- Payment in Covid Situation No COD .
+- Out of Stocks.
+- Products availability for Pincode.
+- Flash Sale for Branded Products
+- Discounts for Cards.
+- CashBack 
+- Amazon Gift Card 
+
+Amazon Pay Balance:
+
+- amazon payment option 
+- amazon bill , 
+- electricity Bill payment
+- Money Transfer 
+
+
+
+
+

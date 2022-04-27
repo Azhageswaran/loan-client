@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Loan_Finance_Client_final.Models.ForeignKeyMap.LoanWithUser>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <style>
+        
+        body {
+                background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+      
+</style>
+</head>
+<h1>Loan List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnRoadPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthOfEmi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PanFileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AadharFileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnRoadPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonthOfEmi)
+            </td>
+            <td>
+                @Html.ActionLink("Download", "DownloadPan","Loans", new { fileName =item.PanFileName}) 
+            </td>
+            <td>
+                @Html.ActionLink("Download", "DownloadAadhar","Loans", new { fileName =item.AadharFileName}) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Approval", "Edit", new { id=item.LoanID }) 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a asp-action="MainMenu" asp-controller="User">Menu</a>
+</div>

@@ -1,0 +1,76 @@
+﻿@model Loan_Finance_Client_final.Models.Loan
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        
+        body {
+              
+              background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+          
+</style>
+</head>
+<h1>Apply Loan</h1>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div style="display:none" class="form-group">
+                <label asp-for="LoanID" class="control-label"></label>
+                <input asp-for="LoanID" class="form-control" />
+                <span asp-validation-for="LoanID" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="VechicleType" class="control-label"></label>
+                <input asp-for="VechicleType" class="form-control" />
+                <span asp-validation-for="VechicleType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VechicleModel" class="control-label"></label>
+                <input asp-for="VechicleModel" class="form-control" />
+                <span asp-validation-for="VechicleModel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OnRoadPrice" class="control-label"></label>
+                <input asp-for="OnRoadPrice" class="form-control" />
+                <span asp-validation-for="OnRoadPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoanAmount" class="control-label"></label>
+                <input asp-for="LoanAmount" class="form-control" />
+                <span asp-validation-for="LoanAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MonthOfEmi" class="control-label"></label>
+                <input asp-for="MonthOfEmi" class="form-control" />
+                <span asp-validation-for="MonthOfEmi" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none" >
+                <label asp-for="Message" class="control-label"></label>
+                <input asp-for="Message" class="form-control" />
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Apply" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

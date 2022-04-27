@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "MainMenu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        
+        body {
+              
+                background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+</style>
+</head>
+<center>
+<h1>MainMenu</h1>
+<a class="btn btn-primary" asp-area="" asp-controller="Loans" asp-action="Create">Apply Loan</a>
+<a class="btn btn-primary" asp-area="" asp-controller="Loans" asp-action="ViewYourLoans" > Status </a>
+</center>

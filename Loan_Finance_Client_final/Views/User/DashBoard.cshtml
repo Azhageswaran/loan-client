@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+          body {
+              
+                background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+    </style>
+</head>
+<center>
+<h1>User DashBoard</h1>
+
+<a class="btn btn-primary" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+<a class="btn btn-primary" asp-area="" asp-controller="User" asp-action="Create" >Sign up </a>
+</center>

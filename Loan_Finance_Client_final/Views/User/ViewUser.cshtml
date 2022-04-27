@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Loan_Finance_Client_final.Models.User>
+
+@{
+    ViewData["Title"] = "ViewUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <style>
+        
+        body {
+              
+                background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+</style>
+</head>
+<h1>ViewUser</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PanFileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aadhar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AadharFileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PanFileName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aadhar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AadharFileName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a asp-action="Menu" asp-controller="Admins">Menu</a>
+</div>

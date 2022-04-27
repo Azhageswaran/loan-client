@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Loan_Finance_Client_final
+build_property.RootNamespace = Loan_Finance_Client_final
+build_property.ProjectDir = C:\Users\azhag\OneDrive\Desktop\Emperor FinCrop\Emperor FinCrop Pvt Ltd\Loan_Finance_Client_final\Loan_Finance_Client_final\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\azhag\OneDrive\Desktop\Emperor FinCrop\Emperor FinCrop Pvt Ltd\Loan_Finance_Client_final\Loan_Finance_Client_final
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Admins/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Admins/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Loans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Loans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Loans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Loans/ViewYourLoans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcVmlld1lvdXJMb2Fucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/User/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/User/MainMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYWluTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/User/ViewUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxWaWV3VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azhag/OneDrive/Desktop/Emperor FinCrop/Emperor FinCrop Pvt Ltd/Loan_Finance_Client_final/Loan_Finance_Client_final/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qhh1x4d6gp

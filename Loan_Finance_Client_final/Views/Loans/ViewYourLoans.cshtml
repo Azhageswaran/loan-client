@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Loan_Finance_Client_final.Models.Loan>
+
+@{
+    ViewData["Title"] = "ViewYourLoans";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>View Your Loans Details </h1>
+<head>
+    <style>
+        
+        body {
+              
+               background-image: linear-gradient(#8f71ff, #8bffff);
+        }
+       
+</style>
+</head>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VechicleType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VechicleModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnRoadPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthOfEmi)
+            </th>
+            <th>
+                    Description
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VechicleType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VechicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnRoadPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonthOfEmi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
